@@ -56,4 +56,5 @@ def generate_binary(N):
         q.dequeue()
 
 
-generate_binary(10)
+if __name__ == '__main__':
+    generate_binary(10)
